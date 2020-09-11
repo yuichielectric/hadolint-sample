@@ -14,3 +14,4 @@ jobs:
       uses: yuichielectric/dive-action@master
       with:
         image: 'sample:latest'
+        config-file: ${{ github.workspace }}/.dive-ci.yml
